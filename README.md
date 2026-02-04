@@ -1,7 +1,24 @@
-# 📄 Log Extractor (C++) Bu proje, bir log dosyasını okuyup her satırı parçalayan ve log içeriğini **daha okunabilir ve düzenli bir formata** dönüştüren basit bir C++ log extractor uygulamasıdır. Bu klasörde örnek bir log dosyası bulunmaktadır, dilerseniz silip yerine kendinizinkini ekleyebilirsiniz. Amaç, ham log verisini insan gözüyle kolay analiz edilebilir hâle getirmektir. 
---- ## 🚀 Özellikler - Kullanıcıdan log dosya adını alır. Programla aynı dizindeyse isim yeterlidir, değilse tam yol verilmelidir. 
-- Dosyayı satır satır okur - Her satırı kelimelere böler - Log alanlarını etiketleyerek düzenli formatta yazar - Çıktıyı output.txt dosyasına kaydeder
-- --- ## 🧾 Örnek Çıktı (output.txt)
+# 📄 Log Extractor (C++)
+
+Bu proje, bir log dosyasını okuyup her satırı parçalayan ve log içeriğini **daha okunabilir ve düzenli bir formata** dönüştüren basit bir C++ log extractor uygulamasıdır.  
+Bu klasörde örnek bir log dosyası bulunmaktadır, dilerseniz silip yerine kendinizinkini ekleyebilirsiniz.
+
+Amaç, ham log verisini insan gözüyle kolay analiz edilebilir hâle getirmektir.
+
+---
+
+## 🚀 Özellikler
+
+- Kullanıcıdan log dosya adını alır. Programla aynı dizindeyse isim yeterlidir, değilse tam yol verilmelidir.
+- Dosyayı satır satır okur
+- Her satırı kelimelere böler
+- Log alanlarını etiketleyerek düzenli formatta yazar
+- Çıktıyı `output.txt` dosyasına kaydeder
+
+---
+
+## 🧾 Örnek Çıktı (`output.txt`)
+
 
 ------------------------------
 Date   : 10.07.2026
@@ -28,7 +45,6 @@ g++ LogExtractor.cpp -o LogExtractor
 2️⃣ Çalıştırma
 ./LogExtractor
 Program sizden okunacak dosyanın adını isteyecektir:
-
 Enter the file name that will be read: log.txt
 📁 Dosya Yapısı
 LogExtractor/
