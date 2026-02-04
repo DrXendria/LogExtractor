@@ -56,7 +56,11 @@ Enter the file name that will be read: log.txt
 ## 📁 Dosya Yapısı
 
 LogExtractor/
+
 ├── LogExtractor.cpp  # Kaynak kod dosyası
+
 ├── log.txt           # Örnek log verisi
+
 ├── output.txt        # Program tarafından oluşturulan çıktı
+
 └── README.md         # Proje dokümantasyonu
