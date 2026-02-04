@@ -48,6 +48,7 @@ Derlenen dosyayı şu şekilde çalıştırabilirsiniz:
 ./LogExtractor
 
 **Not:** Program sizden okunacak dosyanın adını isteyecektir:
+
 Enter the file name that will be read: log.txt
 
 ---
